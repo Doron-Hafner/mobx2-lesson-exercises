@@ -23,3 +23,8 @@ class ResInput extends Component {
 }
 
 export default ResInput
+// const ResInput = inject("GeneralStore")(observer((props) => {
+//     inputHandler = e => {
+//         this.props.GeneralStore.handleInput(e.target.name, e.target.value)
+//     }
+// }))
